@@ -1,4 +1,4 @@
-# ExternalHalfMonitor
+# External VNC Monitor
 Use an android tablet as second screen via vnc.
 
 ## How it works
