@@ -14,8 +14,15 @@ chmod +x enable_half_monitor.sh
 ```
 
 ## Usage:
-Open a terminal window in the folder where the file extend_half_monitor.sh is. Then, launch it
+Open a terminal window in the folder where the file extend_half_monitor.sh is. Then, launch it with the command
 ~~~
 ./enable_half_monitor.sh
 ~~~
-To exit, press Ctrl+C.
+to exit, press Ctrl+C.
+
+## Opional:
+To access the script from any directory, you can link it to the /usr/bin or ~/bin folder, depending on your installation.
+~~~
+sudo ln -s ./enable_half_monitor.sh /usr/bin/enable_half_monitor
+~~~
+so that it can be accessed as the command `enable_half_monitor`.
