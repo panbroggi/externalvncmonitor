@@ -33,7 +33,7 @@ The program will print your IP, so that you can enter it in any vnc client. The 
 Press Ctrl+C to terminate the vnc server and turn off the virtual monitor.
 Start a vnc client on your android tablet - *e.g.* the android app [bVBC](https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC) - and create a new connection with your IP as VNC server.
 
-## Opional:
+## Optional:
 To access the script from any directory, you can link it to the /usr/bin or ~/bin folder, depending on your installation.
 ~~~
 sudo ln -s ./external_vnc_monitor.sh /usr/bin/external_vnc_monitor
